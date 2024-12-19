@@ -15,7 +15,7 @@ The implementation follows several steps:
 
 i) Image segmentation (masking to get raw skin and edges in the image) <br/>
 ii) SIFT Feature detection (finding feature descriptors for all data) <br/>
-iii) K-means clustering (Codebook generation: to cluster all features and to get visual words (bow)) <br/>
+iii) Minibatch K-means clustering <br/>
 iv) Histograms computation (Using visual words (bow) compute histograms for each image) <br/>
 v) SVM model for classification (input: histograms, output: predection for testdata) <br/>
 
