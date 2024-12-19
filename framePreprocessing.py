@@ -9,7 +9,7 @@ import random
 import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
-import imagePreprocessingUtils as ipu
+import PreprocessingUtils as ipu
 
 # Labels
 train_labels = []
