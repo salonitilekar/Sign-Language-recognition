@@ -4,8 +4,8 @@ This repository contains python implementation for recognising sign language (IS
 
 ## Required setup
 * python 3 or above
-* opencv-python==3.4.2.16
-* opencv-contrib-python==3.4.2.16
+* opencv-python
+* opencv-contrib-python
 * numpy
 * imutils
 
